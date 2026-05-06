@@ -3,26 +3,26 @@
 // //  1 . interface 
 // //  2. abstract
 
-// interface MediaPlayer{
-//     paly():void
-//     pause():void,
-//     stop():void
-// }
+interface MediaPlayer{
+    paly():void
+    pause():void,
+    stop():void
+}
 
-//  class MusicPlayer implements MediaPlayer{
-//     paly(): void {
-//         console.log("playing music ----")
-//     }
-//     pause(): void {
-//         console.log("pausing music --------")
-//      }
-//      stop(): void {
-//          console.log("Music stopped ")
-//      }
-//  }
+ class MusicPlayer implements MediaPlayer{
+    paly(): void {
+        console.log("playing music ----")
+    }
+    pause(): void {
+        console.log("pausing music --------")
+     }
+     stop(): void {
+         console.log("Music stopped ")
+     }
+ }
 
-//  const myPlayer=new MusicPlayer()
-//  myPlayer.paly()
+ const myPlayer=new MusicPlayer()
+ myPlayer.paly()
 
 
 
